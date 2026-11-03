@@ -1,0 +1,21 @@
+{
+  "name": "plane-english",
+  "version": "0.8.0",
+  "description": "Short, plain Claude Code replies: the answer first, a Bottom line block at the end, and ASD-STE100 Simplified Technical English. Claude finishes the work before it replies. After you install it, run /plane-english:setup, then /output-style plane-english:Plane English.",
+  "skills": "./skills/",
+  "author": {
+    "name": "danielmjrr",
+    "url": "https://github.com/danielmjrr"
+  },
+  "homepage": "https://github.com/danielmjrr/plane-english",
+  "repository": "https://github.com/danielmjrr/plane-english",
+  "license": "MIT",
+  "keywords": [
+    "output-style",
+    "plain-language",
+    "asd-ste100",
+    "simplified-technical-english",
+    "technical-writing",
+    "esl"
+  ]
+}

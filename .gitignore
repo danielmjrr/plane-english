@@ -1,0 +1,5 @@
+# Local development only, never published
+evals/
+skills/check/scripts/test_check.py
+.DS_Store
+__pycache__/

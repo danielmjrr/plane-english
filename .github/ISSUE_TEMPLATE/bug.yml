@@ -1,0 +1,36 @@
+name: Bug report
+description: Plane English does not work as it must.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Paste the reply, the hook output, or the error. Remove private paths and names first.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: Name the rule of the style that the reply broke, if you know it.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The prompt you sent, and the setting that matters, such as your reader profile.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plane English version
+      description: Run `/plugin` and read the version of plane-english.
+      placeholder: 0.8.0
+  - type: input
+    id: env
+    attributes:
+      label: Claude Code version, model and OS
+      placeholder: Claude Code 2.1.317, Opus 5.5, macOS 26

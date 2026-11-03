@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/style-reminder.mjs\" --session-start",
+            "timeout": 10,
+            "statusMessage": "Loading Plane English reader profile..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/style-reminder.mjs\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

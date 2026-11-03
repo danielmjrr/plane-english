@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "plane-english",
+  "description": "Plane English: shorter, plainer Claude Code replies",
+  "owner": {
+    "name": "danielmjrr",
+    "url": "https://github.com/danielmjrr"
+  },
+  "plugins": [
+    {
+      "name": "plane-english",
+      "description": "Short, plain replies: the answer first, a Bottom line block, and Simplified Technical English.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

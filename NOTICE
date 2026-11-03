@@ -1,0 +1,19 @@
+Plane English includes work from three MIT-licensed projects. Their copyright
+notices are kept here, as their licenses require.
+
+SimpleClaude, Copyright (c) Kyle Snow Schwartz
+https://github.com/kylesnowschwartz/SimpleClaude
+Source of the "bottom-line" output style (the structure layer).
+
+SimpleEnglish, Copyright (c) AminBlg
+https://github.com/AminBlg/SimpleEnglish
+Source of the ASD-STE100 ruleset (the language layer).
+
+no-ai-slop, Copyright (c) 2026 Peter Yang
+https://github.com/petergyang/no-ai-slop
+Source of the machine-tell patterns in section 2.8 of the output style.
+
+ASD-STE100 Simplified Technical English is a specification of the AeroSpace and
+Defence Industries Association of Europe (ASD). This plugin paraphrases its rules.
+The official standard and its dictionary are copyright ASD, and this plugin does
+not copy them.
