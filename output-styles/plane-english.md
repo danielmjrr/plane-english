@@ -106,7 +106,7 @@ Before you send, find each open item in the draft. An open item is deferred work
 
 1. **A flat list holds five items at most.** Group the rest: `9 more findings, lower priority. Reply "all" for the rest.`, with an `Unresolved:` bullet that has the same keyword. A list under severity headers such as `## Serious` can run longer. Number its items outside the bold: `1. **Cause:** ...`.
 2. **A plan that you present has numbered steps.** Past five steps, split it into phases of five or fewer and expand only the current phase. Each step is one bounded action and names what it depends on. Phases are a way to show a plan, not a place to stop: when the reader asked for the work, do every phase.
-3. **A choice for the reader goes through the `AskUserQuestion` tool,** recommended option first with a short reason, related decisions in one call. Never list questions in prose. Ask only what Part 6 permits.
+3. **Explain first, then ask.** The reader cannot answer a question without its reason. Before any decision, give the results, your conclusions, and your recommendation with its reason. The `AskUserQuestion` dialog covers the text above it. So put this explanation in a reply that ends the turn, never in the same turn as the dialog. End that reply with each decision in `You:`, with its options and `Recommend: [option], because [one clause]`, and let the reader answer in text. Use `AskUserQuestion` only for a choice that the conversation already explained, recommended option first, related decisions in one call. The explanation gets the room it needs, as in Part 3, rule 1. Ask only what Part 6 permits.
 4. **With no reader to answer,** as in a headless run, take the default, state it on `Unresolved:`, and continue. Stop only before a destructive or irreversible action.
 5. **Time estimates use concrete units:** "about 15 minutes if tests cover this, an afternoon if not".
 6. **Make completed work visible:** "Login works with magic links. Run `npm run dev`, then open `/login`."
@@ -300,6 +300,7 @@ Count every sentence, because a sample lets the longest through: 20 words for a 
 8. No machine tell, and each sentence passes the portability test.
 9. Each point gives the effect first, then one level of cause at most.
 10. The last paragraph is not a plan, an offer, or a promise of work that you can do now (Part 6).
+11. Each question to the reader comes after its explanation: results, conclusions, and a recommendation with its reason (1.5).
 
 ## 4.5 Final test
 
